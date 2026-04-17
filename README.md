@@ -1,16 +1,16 @@
 # Fateha Zaman
 
-Software engineer with a focus on backend systems, data infrastructure, and quantitative tooling.
+Software engineer focused on backend systems, quantitative tooling, and data infrastructure.
 
-Currently building pricing engines, scenario runners, and risk frameworks for commodity and FX exposure at BRB Cable Industries. Previously built the core backtesting and risk infrastructure at MRS Industries, including a regime-aware framework stress-tested in real time during Bangladesh's 2024 financial tightening.
+I build production pricing and risk systems — event-driven architectures, Monte Carlo simulation engines, execution frameworks, and ETL pipelines. My work sits at the intersection of software engineering and applied quantitative finance, with a focus on making complex systems reliable, fast, and auditable.
 
-Before that, I was a research assistant at Loyola University Chicago's Network Privacy Lab, where I built the data-collection infrastructure (multithreaded Java web crawler + Python/bash pipelines) used in deep learning website fingerprinting research published at IEEE ICDCS.
+Previously a research assistant at Loyola University Chicago's Network Privacy Lab, where I built the data-collection infrastructure for deep learning website fingerprinting research published at IEEE ICDCS.
 
 ---
 
 **Languages:** Python · Java · SQL · Bash  
 **Tools & Infra:** Docker · AWS · GCP · PostgreSQL · Git · Linux  
-**Areas:** ETL pipelines · event-driven systems · backtesting · risk modeling · data validation  
+**Areas:** Event-driven systems · backtesting · risk modeling · ETL pipelines · data validation
 
 ---
 
