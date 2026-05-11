@@ -1,7 +1,7 @@
 # Fateha Zaman
 ### Quantitative Software Engineer | High-Performance Systems | New York, NY
 
-I engineer the transition between high-level quantitative theory and production-grade software. As a "sole-owner" developer, I architect end-to-end trading infrastructure with a focus on reliability, scalability, and deterministic performance.
+I engineer the transition between high-level quantitative theory and production-grade software. I architect end-to-end trading infrastructure with a focus on reliability, scalability, and deterministic performance.
 
 ---
 
