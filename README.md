@@ -14,7 +14,7 @@ I build systems where correctness, latency, and reproducibility matter: event-dr
 
 - **Event-Driven Backtester** — No-lookahead execution, bid/ask-aware fills, slippage, partial fills, deterministic seeding.
 - **MLB Edge Bench** — Live Cloudflare Workers benchmark comparing origin API latency vs. edge-slimmed SSE delivery.
-  https://mlb-edge-bench.fatehaszaman.workers.dev\ 
+  https://mlb-edge-bench.fatehaszaman.workers.dev
 - **Monte Carlo Risk Engine** — Correlated GBM, VaR/CVaR, stress testing, and Cholesky correlation handling.
 - **Regime Risk Framework** — Regime classification, scenario shocks, and LC priority allocation for EM environments.
 
