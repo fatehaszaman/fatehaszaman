@@ -12,7 +12,7 @@ I build systems where correctness, latency, and reproducibility matter: event-dr
 
 ## Featured work
 
-- **Event-Driven Backtester** — No-lookahead execution, bid/ask-aware fills, slippage, partial fills, deterministic seeding.
+- [**Event-Driven Backtester**](https://github.com/fatehaszaman/event-driven-backtester) — No-lookahead execution, bid/ask-aware fills, slippage, partial fills, deterministic seeding.
 - **MLB Edge Bench** — Live Cloudflare Workers benchmark comparing origin API latency vs. edge-slimmed SSE delivery.
   https://mlb-edge-bench.fatehaszaman.workers.dev
 - **Monte Carlo Risk Engine** — Correlated GBM, VaR/CVaR, stress testing, and Cholesky correlation handling.
