@@ -17,6 +17,12 @@ I build systems where correctness, latency, and reproducibility matter: event-dr
   https://mlb-edge-bench.fatehaszaman.workers.dev
 - **Monte Carlo Risk Engine** — Correlated GBM, VaR/CVaR, stress testing, and Cholesky correlation handling.
 - **Regime Risk Framework** — Regime classification, scenario shocks, and LC priority allocation for EM environments.
+- [**World Cup Oracle Trials**](https://github.com/fatehaszaman/world-cup-oracle-trials):
+  Experimental football simulations with bracket, betting-market, and xG
+  diagnostics. I published backtest claims before verifying the committed
+  results; the [correction and audit](https://github.com/fatehaszaman/world-cup-oracle-trials/blob/main/AUDIT.md)
+  explain the mistake, reproducible results, hindsight limitations, and open
+  test failures. This is a research project, not a validated forecasting system.
 
 ## Stack
 
