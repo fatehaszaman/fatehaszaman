@@ -23,6 +23,9 @@ I build systems where correctness, latency, and reproducibility matter: event-dr
   results; the [correction and audit](https://github.com/fatehaszaman/world-cup-oracle-trials/blob/main/AUDIT.md)
   explain the mistake, reproducible results, hindsight limitations, and open
   test failures. This is a research project, not a validated forecasting system.
+  The follow-up also repairs shared knockout mechanics and replaces hardcoded
+  forecast demos with executable simulations; current test counts and logs are
+  published in the audit, including unresolved input and model limitations.
 
 ## Stack
 
