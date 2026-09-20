@@ -20,7 +20,10 @@ I build systems where correctness, latency, and reproducibility matter: event-dr
 
 ## Stack
 
-Python · Java · TypeScript · SQL · Docker · CI/CD · Cloudflare Workers
+- **Languages:** Python · Java · SQL · TypeScript · C++ · Haskell · Prolog
+- **Quant & data:** NumPy · pandas · Time series · Regression · Monte Carlo · VaR/CVaR · Event-driven backtesting
+- **Systems:** Multithreading · Linux/Bash · Docker · PostgreSQL · NoSQL · Git · CI/CD · ETL/data pipelines · Cloudflare Workers
+- **Applied AI:** RAG · LangGraph/LangChain · Vector databases · LLM evaluation workflows
 
 ## Connect
 
