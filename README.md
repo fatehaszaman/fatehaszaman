@@ -6,7 +6,7 @@ I build systems where correctness, latency, and reproducibility matter: event-dr
 
 ## Current focus
 
-- **Quant systems** — event-driven simulation, no-lookahead execution, deterministic seeding, VaR/CVaR, stress testing
+- **Quant systems** — event-driven simulation, ordered bar delivery with explicit execution assumptions, deterministic seeding, VaR/CVaR, stress testing
 - **Risk platforms** — valuation workflows, scenario engines, regression portfolios, lifecycle logic
 - **Backend & data systems** — high-concurrency ingestion, reproducible pipelines, testing, and production-minded design
 
