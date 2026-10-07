@@ -1,30 +1,31 @@
 # Fateha Zaman
 
-**Quantitative Software Engineer | Trading Systems | Risk Engines | Data Infrastructure | New York, NY**
+**Quantitative Software Engineer | Risk Engines | Research Data Systems | Commodities | New York, NY**
 
-I build systems where correctness, latency, and reproducibility matter: event-driven backtesters, portfolio risk engines, valuation workflows, high-concurrency data pipelines, and edge-deployed benchmarks. My core stack is Python, Java, TypeScript, SQL, Docker, and cloud/edge infrastructure.
+I build systems where correctness and reproducibility matter: point-in-time research data pipelines, portfolio risk engines, event-driven simulation, and edge-deployed benchmarks. My core stack is Python, Java and SQL, with TypeScript, Docker and CI where a project needs them. Every repository documents its limits and known defects.
 
 ## Current focus
 
-- **Quant systems** — event-driven simulation, ordered bar delivery with explicit execution assumptions, deterministic seeding, VaR/CVaR, stress testing
-- **Risk platforms** — valuation workflows, scenario engines, regression portfolios, lifecycle logic
-- **Backend & data systems** — high-concurrency ingestion, reproducible pipelines, testing, and production-minded design
+- **Commodities research data**: point-in-time storage, vintages and revisions, provenance, quality gates, and explicit handling of missing or conflicting evidence
+- **Risk and simulation**: VaR/CVaR, correlated Monte Carlo, stress tests, FX basis, policy-regime classification, and letter-of-credit allocation
+- **Testing and reproducibility**: seeded runs, regression tests, CI, and written records of what a model can and cannot show
 
 ## Featured work
 
-- [**Metals Evidence Engine**](https://github.com/fatehaszaman/metals-evidence-engine) — Point-in-time copper research with immutable provenance, revision-aware `as_of()` reconstruction, guarded intake, and explicit handling of conflicting or insufficient evidence.
-- [**Invoice Economy Copper**](https://github.com/fatehaszaman/invoice-economy-copper) — Vintage-aware alternative-data research that preserves source payloads, publication timing, coverage gaps, and reproducible audit trails.
-- [**Event-Driven Backtester**](https://github.com/fatehaszaman/event-driven-backtester) — Queue-based event simulation with ordered CSV bar delivery, long/short accounting, fixed proportional slippage, commission modeling, performance reporting, and 68 passing tests. Same-bar execution limitations are explicitly documented.
-- [**Monte Carlo Risk Engine**](https://github.com/fatehaszaman/monte-carlo-risk-engine) — Correlated GBM, VaR/CVaR, stress testing, and Cholesky correlation handling.
-- [**MLB Edge Bench**](https://github.com/fatehaszaman/mlb-edge-bench) — Live Cloudflare Workers benchmark comparing origin API latency with edge-slimmed delivery. [Live benchmark](https://mlb-edge-bench.fatehaszaman.workers.dev).
+- [**Metals Evidence Engine**](https://github.com/fatehaszaman/metals-evidence-engine): point-in-time evidence evaluator for Bangladesh–India copper and aluminum supply-chain research, with immutable provenance, revision-aware `as_of()` reconstruction, guarded intake, and advisory LLM review that cannot alter data.
+- [**China Copper Research Pipeline**](https://github.com/fatehaszaman/invoice-economy-copper): vintage-aware SHFE and UN Comtrade ingestion that preserves source payloads, publication timing, coverage gaps and audit trails.
+- [**Regime Risk Framework**](https://github.com/fatehaszaman/regime-risk-framework): risks standard VaR misses in import-dependent markets: effective vs. official FX basis, policy-regime classification, scenario shocks and LC allocation.
+- [**Monte Carlo Risk Engine**](https://github.com/fatehaszaman/monte-carlo-risk-engine): correlated GBM, VaR/CVaR, stress testing and Cholesky correlation handling.
+- [**Event-Driven Backtester**](https://github.com/fatehaszaman/event-driven-backtester): queue-based simulation with ordered bar delivery, long/short accounting, proportional slippage, commissions and 68 tests. Same-bar execution limits are documented.
+- [**MLB Edge Bench**](https://github.com/fatehaszaman/mlb-edge-bench): live Cloudflare Workers benchmark comparing MLB's origin API with an edge-cache layer. [Live benchmark](https://mlb-edge-bench.fatehaszaman.workers.dev).
 
 ## Stack
 
-- **Languages:** Python · Java · SQL · TypeScript · C++ · Haskell · Prolog
-- **Quant & data:** NumPy · pandas · Time series · Regression · Monte Carlo · VaR/CVaR · Event-driven backtesting
-- **Systems:** Multithreading · Linux/Bash · Docker · PostgreSQL · NoSQL · Git · CI/CD · ETL/data pipelines · Cloudflare Workers
-- **Applied AI:** RAG · LangGraph/LangChain · Vector databases · LLM evaluation workflows
+- **Languages:** Python · Java · SQL · TypeScript · Bash · Haskell and Prolog (coursework)
+- **Quant and data:** NumPy · pandas · SQLite · PostgreSQL · time series · regression · Monte Carlo · VaR/CVaR · event-driven backtesting
+- **Engineering:** Linux · Docker · Git · GitHub Actions CI · ETL and data pipelines · Cloudflare Workers
+- **Applied AI:** guarded LLM-assisted data review with deterministic checks and human sign-off
 
 ## Connect
 
-📫 [LinkedIn](https://www.linkedin.com/in/fateha-zaman)
+[LinkedIn](https://www.linkedin.com/in/fateha-zaman)
