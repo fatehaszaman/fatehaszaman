@@ -2,7 +2,9 @@
 
 **Quantitative Software Engineer | Risk Engines | Research Data Systems | Commodities | New York, NY**
 
-I build systems where correctness and reproducibility matter: point-in-time research data pipelines, portfolio risk engines, event-driven simulation, and edge-deployed benchmarks. My core stack is Python, Java and SQL, with TypeScript, Docker and CI where a project needs them. Every repository documents its limits and known defects.
+I build systems where correctness and reproducibility matter: point-in-time research data pipelines, portfolio risk engines, event-driven simulation, and edge-deployed benchmarks. My core stack is Python, Java, and SQL, with TypeScript, Docker, and CI where a project needs them.
+
+This GitHub is a hypothesis-driven research notebook. I use these repositories to test market, risk, and systems hypotheses in public, keep earlier coursework and prototypes alongside newer architectures so the progression stays visible, and document known defects and negative results rather than hiding them. The point-in-time archives, deterministic simulation outputs, and defect ledgers also serve as ground-truth datasets and evaluation harnesses for testing and training my own LLMs, especially LLM-as-a-judge evaluators.
 
 ## Current focus
 
