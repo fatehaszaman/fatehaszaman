@@ -14,7 +14,7 @@ Pinned repos are finished work; others are experiments and LLM evaluation sandbo
 
 **Risk and simulation.** [Monte Carlo Risk Engine](https://github.com/fatehaszaman/monte-carlo-risk-engine) and [Regime Risk Framework](https://github.com/fatehaszaman/regime-risk-framework) cover correlated scenarios, VaR/CVaR, stress tests, FX basis, and policy-regime classification. The Monte Carlo tests check simulated paths and VaR/CVaR against analytic results, and open defects are listed in each repo's KNOWN_ISSUES.md.
 
-**Trading simulation.** [Event-Driven Backtester](https://github.com/fatehaszaman/event-driven-backtester) runs queue-based simulation with ordered bar delivery, long/short accounting, slippage, and commissions, with 68 tests. Its same-bar execution limit is documented rather than hidden.
+**Trading simulation.** [Event-Driven Backtester](https://github.com/fatehaszaman/event-driven-backtester) runs queue-based simulation with ordered bar delivery, long/short accounting, slippage, and commissions, with 74 tests. Orders fill at the next bar's open, one bar after the signal.
 
 **Sports analytics and edge systems.** [MLB Edge Bench](https://github.com/fatehaszaman/mlb-edge-bench) measures latency, payload size, and cache hit rate for a Cloudflare Worker edge layer against the MLB origin API. The [World Cup Oracle](https://github.com/fatehaszaman/world-cup-oracle-trials) projects keep a public correction history, including withdrawn scores and what changed.
 
