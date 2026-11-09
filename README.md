@@ -2,32 +2,36 @@
 
 **Quantitative Software Engineer | Risk Engines | Research Data Systems | Commodities | New York, NY**
 
-I build systems where correctness and reproducibility matter: point-in-time research data pipelines, portfolio risk engines, event-driven simulation, and edge-deployed benchmarks. My core stack is Python, Java, and SQL, with TypeScript, Docker, and CI where a project needs them.
+I build systems where correctness and reproducibility matter. My core stack is Python, Java, and SQL, with TypeScript, Docker, and CI where a project needs them.
 
-This GitHub is a hypothesis-driven research notebook. I use these repositories to test market, risk, and systems hypotheses in public, keep earlier coursework and prototypes alongside newer architectures so the progression stays visible, and document known defects and negative results rather than hiding them. The point-in-time archives, deterministic simulation outputs, and defect ledgers also serve as ground-truth datasets and evaluation harnesses for testing and training my own LLMs, especially LLM-as-a-judge evaluators.
+**Common thread.** Every project rests on three habits: point-in-time data that records what was known and when, tests written against analytic properties rather than expected outputs alone, and a clear statement of what each project does and does not prove.
 
-## Current focus
+Pinned repos are finished work; others are experiments and LLM evaluation sandboxes.
 
-- **Commodities research data**: point-in-time storage, vintages and revisions, provenance, quality gates, and explicit handling of missing or conflicting evidence
-- **Risk and simulation**: VaR/CVaR, correlated Monte Carlo, stress tests, FX basis, policy-regime classification, and letter-of-credit allocation
-- **AI/LLM training data and evaluation**: curating clean, deduplicated, leakage-free datasets and ground-truth corpora for personal LLM training, fine-tuning, and LLM-as-a-judge evaluation harnesses
-- **Testing and reproducibility**: seeded runs, regression tests, CI, and written records of what a model can and cannot show
+## Project clusters
 
-## Featured work
+**Commodities research data.** [Metals Evidence Engine](https://github.com/fatehaszaman/metals-evidence-engine) and [China Copper Research Pipeline](https://github.com/fatehaszaman/invoice-economy-copper) store observations with vintages, revisions, provenance, and coverage gaps. They reconstruct what was knowable on a given date and keep missing evidence separate from negative findings.
 
-- [**Metals Evidence Engine**](https://github.com/fatehaszaman/metals-evidence-engine): point-in-time evidence evaluator for Bangladesh-India copper and aluminum supply-chain research, with immutable provenance, revision-aware `as_of()` reconstruction, guarded intake, and advisory LLM review that cannot alter data.
-- [**China Copper Research Pipeline**](https://github.com/fatehaszaman/invoice-economy-copper): vintage-aware SHFE and UN Comtrade ingestion that preserves source payloads, publication timing, coverage gaps and audit trails.
-- [**Regime Risk Framework**](https://github.com/fatehaszaman/regime-risk-framework): risks standard VaR misses in import-dependent markets: effective vs. official FX basis, policy-regime classification, scenario shocks and LC allocation.
-- [**Monte Carlo Risk Engine**](https://github.com/fatehaszaman/monte-carlo-risk-engine): correlated GBM, VaR/CVaR, stress testing and Cholesky correlation handling.
-- [**Event-Driven Backtester**](https://github.com/fatehaszaman/event-driven-backtester): queue-based simulation with ordered bar delivery, long/short accounting, proportional slippage, commissions and 68 tests. Same-bar execution limits are documented.
-- [**MLB Edge Bench**](https://github.com/fatehaszaman/mlb-edge-bench): live Cloudflare Workers benchmark comparing MLB's origin API with an edge-cache layer. [Live benchmark](https://mlb-edge-bench.fatehaszaman.workers.dev).
+**Risk and simulation.** [Monte Carlo Risk Engine](https://github.com/fatehaszaman/monte-carlo-risk-engine) and [Regime Risk Framework](https://github.com/fatehaszaman/regime-risk-framework) cover correlated scenarios, VaR/CVaR, stress tests, FX basis, and policy-regime classification. The Monte Carlo tests check simulated paths and VaR/CVaR against analytic results, and open defects are listed in each repo's KNOWN_ISSUES.md.
+
+**Trading simulation.** [Event-Driven Backtester](https://github.com/fatehaszaman/event-driven-backtester) runs queue-based simulation with ordered bar delivery, long/short accounting, slippage, and commissions, with 68 tests. Its same-bar execution limit is documented rather than hidden.
+
+**Sports analytics and edge systems.** [MLB Edge Bench](https://github.com/fatehaszaman/mlb-edge-bench) measures latency, payload size, and cache hit rate for a Cloudflare Worker edge layer against the MLB origin API. The [World Cup Oracle](https://github.com/fatehaszaman/world-cup-oracle-trials) projects keep a public correction history, including withdrawn scores and what changed.
+
+**Research tooling and foundations.** [Web Crawler](https://github.com/fatehaszaman/web-crawler) is an early single-threaded iteration of URL-collection tooling for a university network-privacy lab. Coursework repositories in algorithms, data structures, SQL, Java, and programming languages keep the progression visible.
+
+## How I use this GitHub
+
+I keep my mistakes visible. Repositories with correction histories show what went wrong, what I changed, and how I prevent it now.
+
+I also use GitHub as a controlled environment for evaluating LLMs and LLM-as-a-judge workflows. Some repositories contain deliberate errors alongside documented real ones, so I can measure whether a model or judge catches them and follows instructions. Working through Git rather than giving a model full access to my machine keeps every change tracked and reversible.
 
 ## Stack
 
 - **Languages:** Python · Java · SQL · TypeScript · Bash · Haskell and Prolog (coursework)
 - **Quant and data:** NumPy · pandas · SQLite · PostgreSQL · time series · regression · Monte Carlo · VaR/CVaR · event-driven backtesting
 - **Engineering:** Linux · Docker · Git · GitHub Actions CI · ETL and data pipelines · Cloudflare Workers
-- **Applied AI:** dataset curation for personal LLM training and fine-tuning · LLM-as-a-judge evaluation with literal-quote verification, deterministic checks, and human sign-off
+- **Applied AI:** LLM and LLM-as-a-judge evaluation with literal-quote verification, deterministic checks, and human sign-off
 
 ## Connect
 
