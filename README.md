@@ -12,7 +12,7 @@ Pinned repos are finished work; others are experiments and LLM evaluation sandbo
 
 **Commodities research data.** [Metals Evidence Engine](https://github.com/fatehaszaman/metals-evidence-engine) and [China Copper Research Pipeline](https://github.com/fatehaszaman/invoice-economy-copper) store observations with vintages, revisions, provenance, and coverage gaps. They reconstruct what was knowable on a given date and keep missing evidence separate from negative findings.
 
-**Risk and simulation.** [Monte Carlo Risk Engine](https://github.com/fatehaszaman/monte-carlo-risk-engine) and [Regime Risk Framework](https://github.com/fatehaszaman/regime-risk-framework) cover correlated scenarios, VaR/CVaR, stress tests, FX basis, and policy-regime classification. The Monte Carlo tests check simulated paths and VaR/CVaR against analytic results, and open defects are listed in each repo's KNOWN_ISSUES.md.
+**Risk and simulation.** [Monte Carlo Risk Engine](https://github.com/fatehaszaman/monte-carlo-risk-engine) and [Regime Risk Framework](https://github.com/fatehaszaman/regime-risk-framework) cover correlated scenarios, VaR/CVaR, stress tests, FX basis, policy-regime classification, and Black-Scholes Greeks P&L attribution. The Monte Carlo tests check simulated paths and VaR/CVaR against analytic results, and open defects are listed in each repo's KNOWN_ISSUES.md.
 
 **Trading simulation.** [Event-Driven Backtester](https://github.com/fatehaszaman/event-driven-backtester) runs queue-based simulation with ordered bar delivery, long/short accounting, slippage, and commissions, with 74 tests. Orders fill at the next bar's open, one bar after the signal.
 
