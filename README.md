@@ -2,11 +2,11 @@
 
 **Quantitative Software Engineer | Risk Engines | Research Data Systems | Commodities | New York, NY**
 
-I build systems where correctness and reproducibility matter. My core stack is Python, Java, and SQL, with TypeScript, Docker, and CI where a project needs them.
+I build pricing, risk, and research systems in Python, Java, and SQL, designed to separate bad data from real moves. TypeScript, Docker, and CI come in where a project needs them.
 
 **Common thread.** Every project rests on three habits: point-in-time data that records what was known and when, tests written against analytic properties rather than expected outputs alone, and a clear statement of what each project does and does not prove.
 
-Pinned repos are finished work; others are experiments and LLM evaluation sandboxes.
+Pinned repos are finished work; others are experiments or labeled LLM evaluation sandboxes. Everything here is independent work on public or synthetic data.
 
 ## Project clusters
 
