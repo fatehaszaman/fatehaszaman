@@ -2,7 +2,7 @@
 
 **Quantitative Software Engineer | Risk Engines | Research Data Systems | Commodities | New York, NY**
 
-I build pricing, risk, and research systems in Python, Java, and SQL, designed to separate bad data from real moves. TypeScript, Docker, and CI come in where a project needs them.
+I build pricing, risk, and research systems in Python, Java, and SQL, designed to separate bad data from real moves. TypeScript and CI where a project needs them; Docker and PostgreSQL from lab and professional work.
 
 **Common thread.** Every project rests on three habits: point-in-time data that records what was known and when, tests written against analytic properties rather than expected outputs alone, and a clear statement of what each project does and does not prove.
 
