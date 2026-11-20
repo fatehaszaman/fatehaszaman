@@ -16,7 +16,7 @@ Pinned repos are finished work; others are experiments or labeled LLM evaluation
 
 **Trading simulation.** [Event-Driven Backtester](https://github.com/fatehaszaman/event-driven-backtester) runs queue-based simulation with ordered bar delivery, long/short accounting, slippage, and commissions, with 90 tests. Orders fill at the next bar's open, one bar after the signal, and a mean-variance optimizer adds a turnover penalty.
 
-**Sports analytics and edge systems.** [MLB Edge Bench](https://github.com/fatehaszaman/mlb-edge-bench) measures latency, payload size, and cache hit rate for a Cloudflare Worker edge layer against the MLB origin API. The [World Cup Oracle](https://github.com/fatehaszaman/world-cup-oracle-trials) projects keep a public correction history, including withdrawn scores and what changed.
+**Sports analytics and edge systems.** [MLB Edge Bench](https://github.com/fatehaszaman/mlb-edge-bench) measures latency, payload size, and cache hit rate for a Cloudflare Worker edge layer against MLB's public feed, and serves a live in-game win probability computed from inning, outs, bases and score. The [World Cup Oracle](https://github.com/fatehaszaman/world-cup-oracle-trials) projects keep a public correction history, including withdrawn scores and what changed.
 
 **Research tooling and foundations.** [Web Crawler](https://github.com/fatehaszaman/web-crawler) is an early single-threaded iteration of URL-collection tooling for a university network-privacy lab. Coursework repositories in algorithms, data structures, SQL, Java, and programming languages keep the progression visible.
 
@@ -24,7 +24,7 @@ Pinned repos are finished work; others are experiments or labeled LLM evaluation
 
 I keep my mistakes visible. Repositories with correction histories show what went wrong, what I changed, and how I prevent it now.
 
-I also use GitHub as a controlled environment for evaluating LLMs and LLM-as-a-judge workflows. Some repositories contain deliberate errors alongside documented real ones, so I can measure whether a model or judge catches them and follows instructions. Working through Git rather than giving a model full access to my machine keeps every change tracked and reversible.
+I also use GitHub as a controlled environment for evaluating LLMs and LLM-as-a-judge workflows. Deliberate errors appear only in repos labeled as LLM evaluation sandboxes (World Cup Oracle), alongside documented real ones, so I can measure whether a model or judge catches them and follows instructions. Working through Git rather than giving a model full access to my machine keeps every change tracked and reversible.
 
 ## Stack
 
